@@ -1,0 +1,124 @@
+.body
+{
+    background: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.4)),url(../images/background_register.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    color: white;
+}
+
+*{
+            font-family: 'Poppins' ;
+        }
+
+        
+        .content{
+            min-height:62%;
+            padding:5px;
+        }
+
+
+        .modal img{
+            margin-left:5px;
+        }
+
+        .main_title
+        {
+            width: 100%;
+            text-align:center;
+        }
+
+        .header{
+            overflow: hidden;
+            background-color: #000000;
+            width: 100%;
+        }
+
+        .header_item
+{
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+    align-content: center;
+}
+
+.main_title
+{
+    width: 100%;
+    text-align: left;
+}
+
+.navgation_bar
+{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    text-align: center;
+    justify-content: space-between;
+    align-items: center;
+    align-content: center;
+    width: 100%;
+    height: auto;
+}
+
+.navgation_bar_item
+{
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+    align-content: center;
+}
+
+.content
+{
+    width: 100%;
+    text-align: center;
+    justify-content: space-between;
+    align-items: center;
+    align-content: center;
+}
+
+.tile_interface_item
+{
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+    align-content: center;
+}
+
+.copyright
+{
+    width: 100%;
+    text-align: left;
+}
+
+.footer
+{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    text-align: center;
+    justify-content: space-between;
+    align-items: center;
+    align-content: center;
+    width: 100%;
+    position: relative;
+    bottom: 0%;
+    background-color:black;
+}
+
+.footer_item
+{
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+    align-content: center;
+    position: relative;
+    bottom:0;
+
+}
+
+a:hover
+{
+    background-color: yellowgreen;
+}
